@@ -7,62 +7,54 @@
 </head>
 <body>
     <header>
-      <h1>HTML5 приклад</h1>
+      <h1>Моя сторінка</h1>
     </header>
     <nav>
       <ul>
-        <li><a href="#section1" class="nav">Розділ 1</a></li>
-        <li><a href="#section2" class="nav">Розділ 2</a></li>
+        <li><a href="#section1" class="nav">Головна</a></li>
+        <li><a href="#section2" class="nav">Товари</a></li>
+        <li><a href="#section2" class="nav">Про нас</a></li>
+        <li><a href="#section2" class="nav">Контакти</a></li>
+        <li><a href="#section2" class="nav">Доставка та оплата</a></li>
       </ul>
     </nav>
     <main>
       <section id="section1">
         <h2>Розділ 1</h2>
-        <p>Тут є текст для першого розділу.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius nesciunt voluptatibus doloribus repellat ab eligendi praesentium accusamus fugiat natus rem, sapiente veniam numquam? Consectetur rem necessitatibus eum veniam, asperiores nulla.</p>
         <figure>
-          <img src="example_image.jpg" alt="Приклад зображення">
-          <figcaption>Підпис до зображення</figcaption>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVspiB5Qn1FZV48Zu4iZhNwxzAqgBVxUrfWg&usqp=CAU" alt="Приклад зображення">
+          <figcaption>Lorem ipsum dolor sit</figcaption>
         </figure>
       </section>
       <section id="section2">
         <h2>Розділ 2</h2>
-        <p>Тут є текст для другого розділу.</p>
-        <video controls>
-          <source src="example_video.mp4" type="video/mp4">
-          Ваш браузер не підтримує відео.
-        </video>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus odio perferendis laboriosam asperiores ad voluptate dolores quasi distinctio obcaecati ab? Repellat labore laborum dolores unde sed quam totam, velit odio!</p>
       </section>
       <section id="contact">
         <h2>Форма контакту</h2>
         <form>
           <label for="name">Ім'я:</label>
           <input type="text" id="name" name="name" required>
+          <br>
           
           <label for="email">Email:</label>
           <input type="email" id="email" name="email" required>
+
+          <br>
           
           <label for="birthdate">Дата народження:</label>
           <input type="date" id="birthdate" name="birthdate">
+
+          <br>
           
           <label for="message">Повідомлення:</label>
           <textarea id="message" name="message" required></textarea>
+
+          <br>
           
           <button type="submit">Надіслати</button>
         </form>
-      </section>
-      <section id="multimedia">
-        <h2>Мультимедіа</h2>
-        
-        <h3>Аудіо</h3>
-        <audio controls>
-          <source src="example_audio.mp3" type="audio/mpeg">
-          Ваш браузер не підтримує аудіо.
-        </audio>
-        
-        <h3>Канвас</h3>
-        <canvas id="exampleCanvas" width="300" height="200">
-          Ваш браузер не підтримує канвас. Оновіть браузер або скористайтеся іншим.
-        </canvas>
       </section>
     </main>
     <footer>
