@@ -63,3 +63,12 @@ body {
     margin-bottom: 10px;
     padding: 0 7px;
   }
+
+  .product {
+    padding: 14px 20px;
+    margin: 8px 90px;
+  }
+
+  .product p {
+    margin: 8px 120px;
+  }
