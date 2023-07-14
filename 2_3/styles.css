@@ -18,3 +18,48 @@ body {
   .shadow {
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
   }
+
+  .text-block p::first-line {
+    color: aquamarine;
+  }
+  
+  .text-block p::first-letter {
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: brown;
+  }
+
+   input {
+    padding: 14px 20px;
+    margin: 8px 75px;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: lightcyan;
+    width: 200px;
+    text-align: center;
+    
+   }
+  
+  input:focus {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  input[type=submit] {
+    width: 200px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 90px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  form {
+    width: 400px;
+    height: 250px;
+    background-color: antiquewhite;
+    margin-bottom: 10px;
+    padding: 0 7px;
+  }
