@@ -111,12 +111,13 @@ margin: 0 370px 64px 334px;
     text-decoration: line-through;
 }
 
-button {
-    /*background-color: #80b7b3;
+.my_button {
+    background-color: #80b7b3;
     color: white;
     text-align: center;
-    text-decoration: none;*/
+    text-decoration: none;
     width: 199px;
     height: 44px;
+    /*box-shadow: 0 6px 40px rgba(128, 183, 179, 1);*/
     margin: 99px 911px 137px 330px;
 }
