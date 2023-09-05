@@ -119,4 +119,53 @@ margin: 0 370px 64px 334px;
     height: 44px;
     /*box-shadow: 0 6px 40px rgba(128, 183, 179, 1);*/
     margin: 99px 911px 137px 330px;
+    border: #273d46;
 }
+
+/* Стилі для екранів менше 600 пікселів */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.2rem;
+    }
+    
+    h2 {
+        font-size: 1.4rem;
+    }
+
+    p {
+        font-size: 1.4rem;
+    }
+    li {
+        font-size: 1.4rem;
+    }
+    .image {
+        width: 521px;
+        height: 241px;
+        border: 5px solid white;
+    }
+}
+
+/* Стилі для екранів більше 600 пікселів */
+@media (min-width: 601px) {
+    h1 {
+        font-size: 2rem;
+    }
+    
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    p {
+        font-size: 1.8rem;
+    }
+
+    li {
+        font-size: 1.8rem;
+    }
+    .image {
+        width: 521px;
+        height: 241px;
+        border: 5px solid white;
+    }
+}
+
